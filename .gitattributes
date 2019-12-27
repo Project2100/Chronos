@@ -1,0 +1,11 @@
+#
+# https://help.github.com/articles/dealing-with-line-endings/
+#
+# These are explicitly windows files and should use crlf
+*.bat                       text eol=crlf
+
+# AP191225: The following files are found to use LF instead of the usual CRLF combo when invoking "gradle init".
+#           IMHO, whether this is reasonable depends on a per-file basis, yet for consistency's sake, these line
+#           endings are preserved verbatim in the repo
+gradlew                     text eol=lf
+gradle-wrapper.properties   text eol=lf
