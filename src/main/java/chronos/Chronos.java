@@ -47,7 +47,7 @@ import javax.swing.Timer;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.text.Document;
-import swing2100.MarkedCollectionModel;
+import project2100.commons.swing.MarkedCollectionModel;
 
 //TODO !CONCEPT: percentage margin option [timerScreen]
 //TODO !CONCEPT: editable warning limits (redo main timer) [warningsItem]

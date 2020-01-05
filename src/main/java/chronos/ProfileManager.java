@@ -22,7 +22,7 @@ import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.SpinnerNumberModel;
-import swing2100.ArrayListModel;
+import project2100.commons.swing.ArrayListModel;
 
 /**
  *

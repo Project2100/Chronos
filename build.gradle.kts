@@ -21,6 +21,17 @@ dependencies {
 }
 
 application {
+
     // Define the main class for the application.
     mainClassName = "chronos.Main"
+}
+
+tasks.withType(JavaCompile::class){
+
+    // Using some special characters in Ananke.java
+    options.encoding = "UTF-8"
+
+    // For thorough compile-time output
+    options.compilerArgs.add("-Xlint:unchecked")
+    options.compilerArgs.add("-Xlint:deprecation")
 }
